@@ -115,7 +115,7 @@ export default function DivMainStock() {
             <img src={item.urlImg} alt={item.name} />
             <div className={styles.divItemText}>
             <p>Nome Produto:<h4 className={styles.h4Text}>{item.name}</h4></p>
-            <p>TESTE Git Descrição Produto:<h4 className={styles.h4TextDesc}>{item.description}</h4></p>
+            <p>Descrição Produto:<h4 className={styles.h4TextDesc}>{item.description}</h4></p>
             <p>Valor R$:<h4 className={styles.h4Text}>{item.value.toFixed(2)}</h4></p>
             </div>
           </div>
