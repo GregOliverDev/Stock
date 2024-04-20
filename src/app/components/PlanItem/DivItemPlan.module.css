@@ -1,0 +1,103 @@
+.divItemPlan {
+  width: 30rem;
+  height: 30rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #f9b786;
+  color: #000;
+  border-radius: 15px;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ulMain {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 1rem;
+  color: #000;
+}
+
+.liMain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.liMain p {
+  font-size: 1.5rem;
+}
+
+.pSelect {
+  color: #15ff00;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.pNSelect {
+  color: #ff0000;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.h2Text {
+  color: #fff;
+}
+
+.h3Text {
+  color: #000;
+}
+
+/*Defaul itens*/
+.btDefaul {
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  background-color: #02d063;
+}
+
+.btDefaul:hover {
+  background-color: #02d063;
+}
+
+/*Responsiveness*/
+@media (max-width: 550px) {
+  .divItemPlan {
+    width: 22rem;
+    height: 25rem;
+  }
+
+  .h2Text {
+    font-size: 1.2rem;
+  }
+
+  .h3Text {
+    font-size: 1rem;
+  }
+
+  .liMain p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .divItemPlan {
+    width: 16rem;
+    height: 23rem;
+  }
+
+  .h2Text {
+    font-size: 1.1rem;
+  }
+
+  .h3Text {
+    font-size: 0.9rem;
+  }
+
+  .liMain p {
+    font-size: 0.9rem;
+  }
+}
