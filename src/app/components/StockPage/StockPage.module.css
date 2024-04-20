@@ -161,11 +161,6 @@
   flex-direction: column;
 }
 
-.h4TextDesc{
-  word-wrap: break-word;
-  max-width: 30%;
-}
-
 /*Defaul itens*/
 .btDefaul {
   font-weight: bold;
@@ -195,25 +190,23 @@
     word-wrap: break-word;
     max-width: 20%;
   }
-}
 
-@media (max-width: 550px) {
-  .h4TextDesc{
-    word-wrap: break-word;
-    max-width: 13%;
-  }
-}
+  .divItem img {
+    width: 120px;
+    height: 100px;
+  }  
 
-@media (max-width: 440px) {
-  .h4TextDesc{
-    word-wrap: break-word;
-    max-width: 10%;
+  .divItem {
+    width: 90%;
+    display: flex;
   }
-}
+  .divRegister {
+    padding: 1rem;
+    gap: 1rem;
+  }
 
-@media (max-width: 380px) {
-  .h4TextDesc{
-    word-wrap: break-word;
-    max-width: 8%;
+  .divRegisterProduct {
+    width: 75%;
   }
+  
 }
