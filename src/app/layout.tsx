@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Stock Controller",
-  description: "new inventory control software",
+  description: "New inventory control software",
 };
 
 export default function RootLayout({
