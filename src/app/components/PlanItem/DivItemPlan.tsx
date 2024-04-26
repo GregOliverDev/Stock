@@ -3,16 +3,18 @@ import styles from "./DivItemPlan.module.css";
 import React from "react";
 import Image from "next/image";
 import { useItemPlanStore } from "@/app/state/itemPlan";
+import { useLoginStore } from "@/app/state/loginState";
 
 export default function DivItemPlan() {
   const itemOption = useItemPlanStore((state) => state.itemOption);
+  const alterLogin = useLoginStore((state) => state.alter);
 
   if (itemOption == 0) {
     return (
       <div className={styles.divItemPlan}>
         <h2 className={styles.h2Text}>Plano Prata</h2>
         <h2 className={styles.h3Text}>R$ 59,90</h2>
-        <Button variant="contained" className={styles.btDefaul}>
+        <Button variant="contained" className={styles.btDefaul} onClick={() => alterLogin(true)}>
           Assinar
         </Button>
         <ul className={styles.ulMain}>
@@ -48,7 +50,7 @@ export default function DivItemPlan() {
       <div className={styles.divItemPlan}>
         <h2 className={styles.h2Text}>Plano Ouro</h2>
         <h2 className={styles.h3Text}>R$ 79,90</h2>
-        <Button variant="contained" className={styles.btDefaul}>
+        <Button variant="contained" className={styles.btDefaul} onClick={() => alterLogin(true)}>
           Assinar
         </Button>
         <ul className={styles.ulMain}>
@@ -84,7 +86,7 @@ export default function DivItemPlan() {
       <div className={styles.divItemPlan}>
         <h2 className={styles.h2Text}>Plano Diamante</h2>
         <h2 className={styles.h3Text}>R$ 99,90</h2>
-        <Button variant="contained" className={styles.btDefaul}>
+        <Button variant="contained" className={styles.btDefaul} onClick={() => alterLogin(true)}>
           Assinar
         </Button>
         <ul className={styles.ulMain}>
