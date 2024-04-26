@@ -2,7 +2,6 @@ import { Button, IconButton, InputBase, Paper } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import styles from "./StockPage.module.css";
 import React, { useState } from "react";
-import Image from "next/image";
 import { useHeaderState } from "@/app/state/headerOption";
 import Product from "@/app/models/Product";
 import TextField from "@mui/material/TextField";

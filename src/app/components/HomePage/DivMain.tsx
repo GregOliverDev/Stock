@@ -74,7 +74,7 @@ export default function DivMain() {
               selectedPlano1  ? styles.divSelected : ""
             } ${selectedPlano1  ? styles.divSelectedBorder : ""}`}
             onClick={() => {
-              toggleSelecionado(1); // Adicione os parênteses aqui
+              toggleSelecionado(1); 
               alterItemPlan(0);
             }}
           >
@@ -92,7 +92,7 @@ export default function DivMain() {
             selectedPlano2 ? styles.divSelected : ""
           } ${selectedPlano2 ? styles.divSelectedBorder : ""}`}
           onClick={() => {
-            toggleSelecionado(2); // Adicione os parênteses aqui
+            toggleSelecionado(2); 
             alterItemPlan(1);
           }}
           >
@@ -110,7 +110,7 @@ export default function DivMain() {
               selectedPlano3 ? styles.divSelected : ""
             } ${selectedPlano3 ? styles.divSelectedBorder : ""}`}
             onClick={() => {
-              toggleSelecionado(3); // Adicione os parênteses aqui
+              toggleSelecionado(3);
               alterItemPlan(2);
             }}
           >
