@@ -11,11 +11,11 @@ export default function ContactCompanyPage() {
             Venha fazer parceria com o Stock Controller e trabalhe conosco
           </h1>
           <h3 className={styles.h3Text}>
-            Mande uma proposta atravez desse email
-            <h2 className={styles.h2Text}>StockController@Stock.com</h2>
+            Mande uma proposta através desse e-mail
           </h3>
+          <h2 className={styles.h2Text}>StockController@Stock.com</h2>
         </div>
-        <Button variant="contained"  href="/" className={styles.btDefaul}>
+        <Button variant="contained" href="/" className={styles.btDefaul}>
           Voltar
         </Button>
       </div>
